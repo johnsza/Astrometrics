@@ -6,14 +6,40 @@
     <title>The Astrometrics Lab</title>
 </head>
 <body>
-    <h1>The Astrometrics Lab</h1>
-    <h2>About the Website</h2>
-    <h3><strong>Welcome to the Astrometrics Lab—where the adventure never ends!</strong></h3>
-    <p>From the legendary crews who shaped the galaxy to the cutting-edge technology that powered their journeys, 
-        this site is your portal to all things Star Trek. Dive into the starships that carried explorers into the unknown, 
-        uncover the history that forged interstellar diplomacy, and engage with a community of fellow Trek fans who share your 
-        passion for exploration.
-    </p>
-    <p>Strap in, set a course, and prepare to go farther than ever before. The Delta Quadrant awaits!</p>
+    <div class=" "container">
+        <nav class=" "sidebar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#history">Chronology</a></li>
+                <li><a href="#characters">Legends of Starfleet</a></li>
+                <li><a href="#starships">Ships and Tech</a></li>
+                <li><a href="#community">Community Page</a></li>
+            </ul>
+        </nav>
+
+        <main class = "content">
+            <h1>The Astrometrics Lab</h1>
+            <div>
+                <h2>About the Website</h2>
+                <h3><strong>Welcome to the Astrometrics Lab—where the adventure never ends!</strong></h3>
+                <p>From the legendary crews who shaped the galaxy to the cutting-edge technology that powered their journeys, 
+                    this site is your portal to all things Star Trek. Dive into the starships that carried explorers into the unknown, 
+                    uncover the history that forged interstellar diplomacy, and engage with a community of fellow Trek fans who share your 
+                    passion for exploration.
+                </p>
+                <p>Strap in, set a course, and prepare to go farther than ever before. The Delta Quadrant awaits!</p>
+            </div>
+
+            <div class= "quoute-container">
+                <h3>Random Quote Generator</h3>
+                <p id="quote">Click the button to see a quote!</p>
+                <button onclick="generateQuote()">New Quote</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
 </body>
 </html>
