@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chronology of Star Trek</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#home">Home</a>
+            <a href="#history">Chronology</a>
+            <a href="#characters">Legends of Starfleet</a>
+            <a href="#starships">Ships and Tech</a>
+            <a href="#community">Community Page</a>
+    </div>
+    <span class= "menu-button" onclick="openNav()"><strong>Menu</strong></span>
+
     <h1>Chronology of Star Trek</h1>
     <p>Starfleet has always been about more than just starships and warp drives—it’s about curiosity, courage, and the relentless 
         pursuit of the unknown. From Earth’s first steps into deep space to the founding of the United Federation of Planets, this 
@@ -19,7 +30,7 @@
         <strong><em>So grab a cup of replicated coffee, settle in, and start exploring—the stars are calling!</em></strong>
         </p>
     <h2>History</h2>
-    <ul>
+    <ul class="history-list">
         <li><strong>Star Trek: Enterprise (2151–2161)</strong> The earliest series in the timeline, following Captain Jonathan Archer and the first warp-5 starship, 
             the NX-01 Enterprise. A prequel exploring humanity’s first deep-space voyages and the founding of the Federation.</li>
         <li><strong>Star Trek: Discovery (2256–2258, then 32nd century)</strong> Starts in the era just before The Original Series, with Michael Burnham navigating galactic conflicts 
@@ -40,4 +51,5 @@
         <li><strong>Star Trek: Discovery (32nd Century)</strong> After a massive time jump, Discovery explores a far-future Federation, introducing new technologies, civilizations, and challenges.</li>
     </ul>
 </body>
+<script src="main.js"></script>
 </html>

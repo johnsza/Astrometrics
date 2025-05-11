@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Astrometrics Lab</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="mySidenav" class="sidenav">
@@ -14,7 +15,7 @@
             <a href="#starships">Ships and Tech</a>
             <a href="#community">Community Page</a>
     </div>
-    <span onclick="openNav()">open</span>
+    <span class= "menu-button" onclick="openNav()"><strong>Menu</strong></span>
         
     
     <div>
@@ -28,18 +29,16 @@
                     uncover the history that forged interstellar diplomacy, and engage with a community of fellow Trek fans who share your 
                     passion for exploration.
                 </p>
-                <p>Strap in, set a course, and prepare to go farther than ever before. The Delta Quadrant awaits!</p>
+                <p><em>Strap in, set a course, and prepare to go farther than ever before. The Delta Quadrant awaits!</em></p>
             </div>
 
-            <div class= "quoute-container">
+            <div class= "quote-container">
                 <h3>Random Quote Generator</h3>
                 <p id="quote">Click the button to see a quote!</p>
                 <button onclick="generateQuote()">New Quote</button>
             </div>
         </main>
     </div>
-    <script src="main.js"></script>
 </body>
-
-</body>
+<script src="main.js"></script>
 </html>
