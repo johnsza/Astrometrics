@@ -1,7 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Fontana', sans-serif;
     text-align: center;
     padding: 20px;
+    font-size: 1.5em;
+}
+
+@font-face {
+    font-family: 'header-font';
+    src: url('fonts/heading.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roddenberry';
+    src: url('fonts/roddenberry.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Fontana';
+    src: url('fonts/Fontana.ttf') format('truetype');
+}
+
+h2 {
+    font-family: 'Roddenberry', sans-serif;
+    font-size: 3em;
+    color: #2b1660;
 }
 
 .quote-container {
@@ -76,10 +98,6 @@ ul {
     left: 10px;
 }
 
-@font-face {
-    font-family: 'header-font';
-    src: url('fonts/heading.ttf') format('truetype');
-}
 
 h1 {
     font-family: 'header-font', sans-serif;
