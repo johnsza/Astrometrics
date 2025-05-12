@@ -1,8 +1,13 @@
 body {
+    background-image: url(photos/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #920042;
     font-family: 'Fontana', sans-serif;
     text-align: center;
     padding: 20px;
     font-size: 1.5em;
+    color: white;
 }
 
 @font-face {
@@ -23,10 +28,11 @@ body {
 h2 {
     font-family: 'Roddenberry', sans-serif;
     font-size: 3em;
-    color: #2b1660;
+    color: white;
 }
 
 .quote-container {
+    background-color: #520276;
     max-width: 500px;
     margin: auto;
     padding: 20px;
@@ -36,8 +42,9 @@ h2 {
 }
 
 button {
+    font-family: 'Roddenberry', sans-serif;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     background-color: #2c8769;
     color: white;
@@ -102,12 +109,12 @@ ul {
 h1 {
     font-family: 'header-font', sans-serif;
     font-size: 6em;
-    color: #2b1660;
+    color: white;
 }
 
 .flip-card-container {
     display: flex; /* Align cards horizontally */
-    gap: 20px; /* Space between cards */
+    gap: 10px; /* Space between cards */
     justify-content: center; /* Centers the cards */
     flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
@@ -149,7 +156,7 @@ h1 {
 }
 
 .flip-card-back {
-    background-color: dodgerblue;
+    background-color: #085e7e;
     color: white;
     transform: rotateY(180deg);
 }
