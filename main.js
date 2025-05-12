@@ -1,3 +1,5 @@
+
+//sets quotes for the home page quote generator
 const quotes = [
     "Live long and prosper.<br>- Spock, <em>Star Trek: The Original Series</em>",
     "Resistance is futile.<br>– The Borg, <em>Star Trek: The Next Generation</em>",
@@ -13,17 +15,29 @@ const quotes = [
     "Ad Astra per Aspera.<br>– Number 1, <em>Star Trek: Strange New Worlds</em>",
 ];
 
+//Random quote generator fo home page
 function generateQuote() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     document.getElementById("quote").innerHTML = quotes[randomIndex];
 }
 
+// calls the function to open the navigation panel
 function openNav() {
     console.log("openNav function called");
     document.getElementById("mySidenav").style.width = "250px";
 }
 
-/* Set the width of the side navigation to 0 */
+// calls the function to close the navigation panel
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 } 
+
+//Uses a warp effect to transition to the home page when clicked
+function warpJump() {
+    let warpOverlay = document.getElementById("warp-overlay");
+    warpOverlay.classList.add("warp-effect");
+
+    setTimeout(() => {
+        window.location.href = "index.html"; 
+    }, 600);
+}
